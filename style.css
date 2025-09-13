@@ -8,31 +8,65 @@ h1 {
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
 }
+
+.div1 {
     
+    background-color: #ca872f;
+}
+
+.div2 {
+
+    background-color: #1b539b;
+}
+.div3 {
+
+    background-color: #bd7a7a;
+}
+
 
 .div4 {
     grid-column-start: 3;
     grid-row-start: 2;
+    background-color: #d9d9d9;
 }
 
 .div5 {
     grid-column-start: 2;
     grid-row-start: 2;
+    background-color: #801e1e;
+
 }
 
 .div6 {
     grid-column-start: 1;
     grid-row-start: 2;
+    background-color: #4f86aa;
+
 }
 
 .div7 {
     grid-row-start: 3;
+    background-color: #abb42b;
+
 }
 
 .div8 {
     grid-row-start: 3;
+    background-color: #cf10af;
+
 }
 
 .div9 {
     grid-row-start: 3;
+    background-color: #1cbd3f;
+
+}
+
+div {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.parent {
+    text-align: center;
 }
